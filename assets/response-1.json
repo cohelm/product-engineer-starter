@@ -1,0 +1,17 @@
+{
+    "case_id": "case_3664a",
+    "status": "submitted",
+    "procedure_name": "Facet Joint Injection",
+    "cpt_codes": [
+        "64490",
+        "64491",
+        "64492",
+        "64493",
+        "64494",
+        "64495"
+    ],
+    "summary": null,
+    "is_met": false,
+    "is_complete": false,
+    "steps": []
+}

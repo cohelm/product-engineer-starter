@@ -1,0 +1,14 @@
+{
+    "tabWidth": 4,
+    "semi": true,
+    "trailingComma": "none",
+    "overrides": [
+        {
+            "files": "*.tsx",
+            "options": {
+                "printWidth": 100,
+                "jsxBracketSameLine": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "case_id": "case_3664a",
+    "status": "processing",
+    "procedure_name": "Facet Joint Injection",
+    "cpt_codes": [
+        "64490",
+        "64491",
+        "64492",
+        "64493",
+        "64494",
+        "64495"
+    ],
+    "summary": "The patient, Mickey Mouse, presented with persistent lower back pain following a motor vehicle accident. Despite conservative management including NSAIDs, muscle relaxants, and physical therapy, the pain has not significantly improved. The medical records suggest that the pain has been present for more than 3 months and there are no acute neurologic deficits. Imaging did not provide a diagnostic explanation for the pain. The plan suggests a Medial Branch Block (MBB) as the next step in the diagnostic process. Based on the evidence, the patient appears to meet the criteria for a \"Diagnostic facet joint injection\" rather than a \"Therapeutic facet joint injection.\" The patient has also met the treatment criteria for NSAIDs and physical therapy or home exercise within the last year. However, the procedure, a facet joint injection, is not justified at this point as the patient has not yet undergone any diagnostic medial branch blocks or intra-articular zygapophysial joint injections. The next appropriate step would be to proceed with the diagnostic facet joint injection (MBB) as planned to confirm the diagnosis before considering therapeutic interventions.",
+    "is_met": false,
+    "is_complete": false,
+    "steps": []
+}

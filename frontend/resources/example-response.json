@@ -1,0 +1,532 @@
+{
+    "case_id": "case_891a_6fbl_87d1_4326",
+    "status": "complete",
+    "procedure_name": "Facet Joint Injection",
+    "cpt_codes": [
+        "64490",
+        "64491",
+        "64492",
+        "64493",
+        "64494",
+        "64495"
+    ],
+    "summary": "The patient, Mickey Mouse, presented with persistent lower back pain following a motor vehicle accident. Despite conservative management including NSAIDs, muscle relaxants, and physical therapy, the pain has not significantly improved. The medical records suggest that the pain has been present for more than 3 months and there are no acute neurologic deficits. Imaging did not provide a diagnostic explanation for the pain. The plan suggests a Medial Branch Block (MBB) as the next step in the diagnostic process. Based on the evidence, the patient appears to meet the criteria for a \"Diagnostic facet joint injection\" rather than a \"Therapeutic facet joint injection.\" The patient has also met the treatment criteria for NSAIDs and physical therapy or home exercise within the last year. However, the procedure, a facet joint injection, is not justified at this point as the patient has not yet undergone any diagnostic medial branch blocks or intra-articular zygapophysial joint injections. The next appropriate step would be to proceed with the diagnostic facet joint injection (MBB) as planned to confirm the diagnosis before considering therapeutic interventions.",
+    "is_met": false,
+    "is_complete": true,
+    "steps": [
+        {
+            "key": "0",
+            "question": "Choose one of the following options and continue to the appropriate section",
+            "options": [
+                {
+                    "key": "10",
+                    "text": "Diagnostic facet joint injection",
+                    "selected": true
+                },
+                {
+                    "key": "20",
+                    "text": "Therapeutic facet joint injection",
+                    "selected": false
+                }
+            ],
+            "options_string": "10 - Diagnostic facet joint injection\n20 - Therapeutic facet joint injection",
+            "logic": [],
+            "logic_string": "Navigate to the chosen section",
+            "reasoning": "Based on the provided medical record, we need to determine whether the patient requires a diagnostic facet joint injection or a therapeutic facet joint injection. Let's analyze the information step by step:\n\n1. Initial Encounter: The patient, Mickey Mouse, was involved in a motor vehicle accident and reported lumbar pain. The lumbar spine X-ray showed no evidence of acute traumatic injury or significant pathology, only mild age-related changes. The diagnosis was suspected lumbar strain with possible nerve root irritation secondary to the motor vehicle accident. Conservative management with NSAIDs and muscle relaxants was prescribed, along with rest, heat/cold therapy, and a referral to physical therapy.\n\n2. Follow-Up Encounter: The patient continued to experience persistent lower back pain that has not significantly improved despite conservative management, including NSAIDs, muscle relaxants, and weeks of physical therapy. The physical examination during the follow-up revealed tenderness to palpation in the lower spine over facet joints and a slight limited range of motion due to discomfort. The assessment noted chronic lower back pain, possibly related to facet joint pathology, unresponsive to conservative treatment.\n\n3. Plan: The plan suggests trying a medial branch block (MBB) to pinpoint pain-causing nerves, which involves an anesthetic injection near key nerves. If the MBB helps, the provider is considering radiofrequency ablation (RFA) for longer relief.\n\nGiven this information, the patient has persistent symptoms despite conservative treatment, and the provider is considering further diagnostic procedures (MBB) to identify the source of pain. Since the MBB is a diagnostic procedure to confirm whether the facet joints are the source of pain, and there is no mention of prior diagnostic injections, it seems that the patient has not yet had a diagnostic facet joint injection.\n\nTherefore, based on the balance of evidence, the patient appears to meet the criteria for a \"Diagnostic facet joint injection\" rather than a \"Therapeutic facet joint injection,\" as the therapeutic approach would typically follow a confirmed diagnosis of facet joint pain, which has not yet been established in this case. The next appropriate step would be to proceed with the diagnostic facet joint injection (MBB) as planned to confirm the diagnosis before considering therapeutic interventions such as RFA.",
+            "decision": "10",
+            "next_step": "10",
+            "is_met": true,
+            "is_final": false,
+            "evidence": [
+                {
+                    "content": "Assessment: Chronic lower back pain, possibly related to facet joint pathology, unresponsive to conservative treatment.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Facet Joints: Normal facet joint alignment without signs of subluxation or degenerative changes.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Musculoskeletal: Tenderness to palpation in the lower spine over facet joints. Slight limited range of motion due to discomfort. No deformities.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Service: Whole Body imaging (1 Advanced Imaging of Neck and Spine, MRA, and PET) Breast Procedures Cardiac Nuclear Medicine Cochlear Implant Dialysis Gastric Neurostimulator Genetic Testing Vein Surgery TMJ/Oral Splints/Oral Surgery Home Health Services Minimally invasive Spine Procedures Blepharoplasty/Ptosis Repair Wound Therapy Orthopedic Procedures In Lab Sleep Study TENS Neurostimulator Other",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_8b98_d4aa_7956_4c6a",
+                    "pdf_name": null,
+                    "event_datetime": null
+                },
+                {
+                    "content": "COMPARISON: None - Patient involved in a motor vehicle accident, reporting lumbar pain. Initial encounter.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Plan: MBB: Suggest trying Medial Branch Block (MBB) to pinpoint pain-causing nerves. This procedure involves an anesthetic injection near key nerves. Risks will be explained.",
+                    "page_number": 5,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Diagnostic Tests: Lumbar spine X-ray: No acute abnormalities, mild age-related changes.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Disc Spaces: Intervertebral disc spaces are preserved.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Management: Prescribed NSAIDs and muscle relaxants. Advised rest, heat/cold therapy, and physical therapy referral.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Normal lumbar spine X-ray post motor vehicle accident. No evidence of acute traumatic injury or significant pathology.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Diagnosis: Suspected lumbar strain with possible nerve root irritation secondary to motor vehicle accident.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "PROCEDURE: XR Lumbar Spine, 4 views",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                }
+            ]
+        },
+        {
+            "key": "1",
+            "question": "Choose one",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Initial diagnostic medial branch block",
+                    "selected": true
+                },
+                {
+                    "key": "B",
+                    "text": "Second diagnostic medial branch block",
+                    "selected": false
+                },
+                {
+                    "key": "C",
+                    "text": "Initial diagnostic intra-articular zygapophysial joint injection",
+                    "selected": false
+                },
+                {
+                    "key": "D",
+                    "text": "Second diagnostic intra-articular zygapophysial joint injection",
+                    "selected": false
+                },
+                {
+                    "key": "E",
+                    "text": "Other clinical information (add comment)",
+                    "selected": false
+                }
+            ],
+            "options_string": "A - Initial diagnostic medial branch block\nB - Second diagnostic medial branch block\nC - Initial diagnostic intra-articular zygapophysial joint injection\nD - Second diagnostic intra-articular zygapophysial joint injection\nE - Other clinical information (add comment)",
+            "logic": [
+                {
+                    "text": "If option A selected, then go to question 2",
+                    "selected": true
+                },
+                {
+                    "text": "If option B selected, then go to question 7",
+                    "selected": false
+                },
+                {
+                    "text": "If option C selected, then go to question 14",
+                    "selected": false
+                },
+                {
+                    "text": "If option D selected, then go to question 18",
+                    "selected": false
+                },
+                {
+                    "text": "Otherwise, no other options lead to the requested service",
+                    "selected": false
+                }
+            ],
+            "logic_string": "If option A selected, then go to question 2.\nIf option B selected, then go to question 7.\nIf option C selected, then go to question 14.\nIf option D selected, then go to question 18.\nOtherwise, no other options lead to the requested service.",
+            "reasoning": "Based on the provided medical record, we need to determine which of the options (A, B, C, or D) is met by the evidence.\n\nLet's review the information step by step:\n\n1. The patient, Mickey Mouse, initially presented with lumbar pain following a motor vehicle accident, as noted in the report dated 12/10/2021. The initial lumbar spine X-ray showed no evidence of acute traumatic injury or significant pathology, only mild age-related changes.\n\n2. The management plan at that time included NSAIDs, muscle relaxants, rest, heat/cold therapy, and a referral to physical therapy. The patient was advised to follow up with primary care or a spine specialist if symptoms persisted or worsened.\n\n3. On 04/21/2023, the patient had a follow-up encounter due to persistent lower back pain. The assessment indicated chronic lower back pain, possibly related to facet joint pathology, which was unresponsive to conservative treatment.\n\n4. The plan from the follow-up encounter suggests trying a Medial Branch Block (MBB) to pinpoint pain-causing nerves. This involves an anesthetic injection near key nerves. The document also mentions Radiofrequency Ablation (RFA) as a potential next step if MBB helps.\n\nGiven this information, the patient has not yet undergone any diagnostic medial branch blocks or intra-articular zygapophysial joint injections. The plan suggests an MBB as the next step in the diagnostic process to determine the cause of the chronic lower back pain.\n\nTherefore, the correct option based on the balance of evidence is:\n\nA: Initial diagnostic medial branch block\n\nThis is because the medical record indicates that the patient is being recommended to undergo an MBB for the first time to diagnose the source of the pain. Options B, C, and D are not supported by the evidence as there is no indication that the patient has previously had an MBB or any intra-articular zygapophysial joint injections.",
+            "decision": "A",
+            "next_step": "2",
+            "is_met": true,
+            "is_final": false,
+            "evidence": [
+                {
+                    "content": "Plan: MBB: Suggest trying Medial Branch Block (MBB) to pinpoint pain-causing nerves. This procedure involves an anesthetic injection near key nerves. Risks will be explained.",
+                    "page_number": 5,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Assessment: Chronic lower back pain, possibly related to facet joint pathology, unresponsive to conservative treatment.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Musculoskeletal: Tenderness to palpation in the lower spine over facet joints. Slight limited range of motion due to discomfort. No deformities.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Facet Joints: Normal facet joint alignment without signs of subluxation or degenerative changes.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Service: Whole Body imaging (1 Advanced Imaging of Neck and Spine, MRA, and PET) Breast Procedures Cardiac Nuclear Medicine Cochlear Implant Dialysis Gastric Neurostimulator Genetic Testing Vein Surgery TMJ/Oral Splints/Oral Surgery Home Health Services Minimally invasive Spine Procedures Blepharoplasty/Ptosis Repair Wound Therapy Orthopedic Procedures In Lab Sleep Study TENS Neurostimulator Other",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_8b98_d4aa_7956_4c6a",
+                    "pdf_name": null,
+                    "event_datetime": null
+                },
+                {
+                    "content": "COMPARISON: None - Patient involved in a motor vehicle accident, reporting lumbar pain. Initial encounter.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "PROCEDURE: XR Lumbar Spine, 4 views",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Disc Spaces: Intervertebral disc spaces are preserved.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "S1 vertebral bifid appearance noted as a congenital variant: Clinical correlation recommended if symptoms persist.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Repeated presentations to primary care with lower back pain since MVA.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Diagnosis: Suspected lumbar strain with possible nerve root irritation secondary to motor vehicle accident.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Sacral Region: S1 vertebra shows a bifid appearance, which is a congenital variant and is asymptomatic. Sacroiliac joints appear intact.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                }
+            ]
+        },
+        {
+            "key": "2",
+            "question": "Choose all that apply",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "Back or neck pain ≥ 3 months suggestive of facet joint origin",
+                    "selected": true
+                },
+                {
+                    "key": "B",
+                    "text": "No acute neurologic deficits",
+                    "selected": true
+                },
+                {
+                    "key": "C",
+                    "text": "Imaging nondiagnostic for etiology of pain",
+                    "selected": true
+                },
+                {
+                    "key": "D",
+                    "text": "Other clinical information (add comment)",
+                    "selected": false
+                }
+            ],
+            "options_string": "A - Back or neck pain ≥ 3 months suggestive of facet joint origin\nB - No acute neurologic deficits\nC - Imaging nondiagnostic for etiology of pain\nD - Other clinical information (add comment)",
+            "logic": [
+                {
+                    "text": "If the number of options selected is 3 and option D not selected, then go to question 3",
+                    "selected": true
+                },
+                {
+                    "text": "Otherwise, no other options lead to the requested service",
+                    "selected": false
+                }
+            ],
+            "logic_string": "If the number of options selected is 3 and option D not selected, then go to question 3.\nOtherwise, no other options lead to the requested service.",
+            "reasoning": "Based on the provided medical records, let's evaluate the criteria one by one:\n\nA. Back or neck pain ≥ 3 months suggestive of facet joint origin:\nThe patient, Mickey Mouse, initially presented with lower back pain following a motor vehicle accident on 12/10/2021. The follow-up encounter on 04/21/2023 indicates persistent lower back pain, which has not significantly improved despite conservative management including NSAIDs, muscle relaxants, and weeks of physical therapy. This suggests that the pain has been present for more than 3 months. Additionally, the physical examination notes tenderness to palpation in the lower spine over facet joints, which could suggest facet joint pathology. Therefore, criterion A appears to be met.\n\nB. No acute neurologic deficits:\nThe medical records indicate that the patient has no acute neurologic deficits. The neurological examination from the initial visit and the follow-up visit both show that cranial nerves II-XII are intact, and motor strength is 5/5 in all extremities. There are no signs of acute neurologic deficits such as numbness, weakness, or loss of reflexes. Therefore, criterion B is met.\n\nC. Imaging nondiagnostic for etiology of pain:\nThe initial lumbar spine X-ray report from 12/10/2021 states that there is no evidence of acute traumatic injury or significant pathology. It mentions mild incidental age-related changes and a congenital variant (bifid appearance of S1 vertebra) but no abnormalities that would explain the etiology of the patient's pain. Since the imaging does not provide a diagnostic explanation for the pain, criterion C is met.\n\nIn conclusion, based on the balance of evidence from the medical records, all three criteria (A, B, and C) appear to be met.",
+            "decision": "A, B, C",
+            "next_step": "3",
+            "is_met": true,
+            "is_final": false,
+            "evidence": [
+                {
+                    "content": "Assessment: Chronic lower back pain, possibly related to facet joint pathology, unresponsive to conservative treatment.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Musculoskeletal: Tenderness to palpation in the lower spine over facet joints. Slight limited range of motion due to discomfort. No deformities.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "History of Present Illness: The patient presents with ongoing lower back pain, which has not significantly improved despite conservative management including NSAIDs since 12/10/21, muscle relaxants, and weeks of physical therapy.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Chief Complaint: Persistent lower back pain.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "COMPARISON: None - Patient involved in a motor vehicle accident, reporting lumbar pain. Initial encounter.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Facet Joints: Normal facet joint alignment without signs of subluxation or degenerative changes.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Diagnosis: Suspected lumbar strain with possible nerve root irritation secondary to motor vehicle accident.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Normal lumbar spine X-ray post motor vehicle accident. No evidence of acute traumatic injury or significant pathology.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Diagnostic Tests: Lumbar spine X-ray: No acute abnormalities, mild age-related changes.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Repeated presentations to primary care with lower back pain since MVA.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "History of Present Illness (HPI): The patient was involved in a motor vehicle accident earlier today. He reports persistent lower back pain since the accident. No loss of consciousness or other injuries reported.",
+                    "page_number": 2,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Follow up: Recommended follow up with primary care or spine specialist if symptoms persist or worsen.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                }
+            ]
+        },
+        {
+            "key": "3",
+            "question": "Treatment within the last year, Choose all that apply",
+            "options": [
+                {
+                    "key": "A",
+                    "text": "NSAIDs or acetaminophen ≥ 3 weeks",
+                    "selected": true
+                },
+                {
+                    "key": "B",
+                    "text": "Activity modification ≥ 4 weeks",
+                    "selected": false
+                },
+                {
+                    "key": "C",
+                    "text": "PT or home exercise ≥ 4 weeks",
+                    "selected": true
+                },
+                {
+                    "key": "D",
+                    "text": "Other clinical information (add comment)",
+                    "selected": false
+                }
+            ],
+            "options_string": "A - NSAIDs or acetaminophen ≥ 3 weeks\nB - Activity modification ≥ 4 weeks\nC - PT or home exercise ≥ 4 weeks\nD - Other clinical information (add comment)",
+            "logic": [
+                {
+                    "text": "If the number of options selected is 3 and option D not selected, then go to question 4",
+                    "selected": false
+                },
+                {
+                    "text": "Otherwise, no other options lead to the requested service",
+                    "selected": true
+                }
+            ],
+            "logic_string": "If the number of options selected is 3 and option D not selected, then go to question 4.\nOtherwise, no other options lead to the requested service.",
+            "reasoning": "Based on the medical records provided, we need to determine if the patient has met any of the treatment criteria within the last year. The criteria in question are:\n\nA. NSAIDs or acetaminophen ≥ 3 weeks\nB. Activity modification ≥ 4 weeks\nC. PT or home exercise ≥ 4 weeks\n\nLet's go through the evidence step-by-step:\n\n1. NSAIDs or acetaminophen ≥ 3 weeks (Option A):\n   - The medical record from the initial visit on 12/10/2021 indicates that NSAIDs and muscle relaxants were prescribed for the management of suspected lumbar strain following a motor vehicle accident.\n   - The follow-up record from 04/21/2023 mentions that the patient has persistent lower back pain that has not significantly improved despite conservative management, including NSAIDs.\n   - This suggests that the patient has been on NSAIDs for a period extending beyond 3 weeks, as there is a gap of more than a year between the initial prescription and the follow-up, and the patient's condition has not significantly improved.\n\n2. Activity modification ≥ 4 weeks (Option B):\n   - There is no explicit mention of activity modification in the medical records provided. However, the management plan from the initial visit does advise rest, which could imply some form of activity modification.\n   - Since there is no clear documentation of a specific activity modification plan or its duration, we cannot conclusively determine if this criterion has been met based on the balance of evidence.\n\n3. PT or home exercise ≥ 4 weeks (Option C):\n   - The initial management plan includes a referral to physical therapy.\n   - The follow-up record from 04/21/2023 indicates that the patient has been undergoing physical therapy as part of the conservative management.\n   - Given the time frame between the initial visit and the follow-up, it is reasonable to infer that the patient has participated in physical therapy or home exercise for at least 4 weeks.\n\nBased on the balance of evidence, it appears that the criteria for NSAIDs (Option A) and PT or home exercise (Option C) have been met. There is insufficient evidence to confirm activity modification (Option B). Therefore, the options that are met based on the evidence provided are A and C.",
+            "decision": "A, C",
+            "next_step": "FAILURE",
+            "is_met": false,
+            "is_final": true,
+            "evidence": [
+                {
+                    "content": "Assessment: Chronic lower back pain, possibly related to facet joint pathology, unresponsive to conservative treatment.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Management: Prescribed NSAIDs and muscle relaxants. Advised rest, heat/cold therapy, and physical therapy referral.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Plan: Continue NSAIDs and physical therapy.",
+                    "page_number": 5,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "History of Present Illness: The patient presents with ongoing lower back pain, which has not significantly improved despite conservative management including NSAIDs since 12/10/21, muscle relaxants, and weeks of physical therapy.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Musculoskeletal: Tenderness to palpation in the lower spine over facet joints. Slight limited range of motion due to discomfort. No deformities.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Facet Joints: Normal facet joint alignment without signs of subluxation or degenerative changes.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Repeated presentations to primary care with lower back pain since MVA.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "COMPARISON: None - Patient involved in a motor vehicle accident, reporting lumbar pain. Initial encounter.",
+                    "page_number": 1,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Disposition: Discharged home with pain management and follow up instructions.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Chief Complaint: Patient presents with lower back pain following a motor vehicle accident.",
+                    "page_number": 2,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                },
+                {
+                    "content": "Neurological: Positive straight leg raise; denies headaches, dizziness, seizures, or numbness.",
+                    "page_number": 4,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2023-04-21T00:00:00"
+                },
+                {
+                    "content": "Follow up: Recommended follow up with primary care or spine specialist if symptoms persist or worsen.",
+                    "page_number": 3,
+                    "pdf_id": "pdf_extraction_5dae_759d_f984_4238",
+                    "pdf_name": null,
+                    "event_datetime": "2021-12-10T00:00:00"
+                }
+            ]
+        }
+    ]
+}
