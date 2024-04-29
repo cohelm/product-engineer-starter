@@ -13,8 +13,8 @@ export default function GuidelinesUpload() {
 
     const handleClick = () => {
         setShowSpinner(true);
-        setGuidelinesFile({ url: "/assets/guidelines.pdf" });
         setTimeout(() => {
+            setGuidelinesFile({ url: "/assets/guidelines.pdf" });
             setShowSpinner(false);
         }, SPINNER_TIMEOUT);
     }

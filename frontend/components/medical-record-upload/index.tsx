@@ -13,8 +13,8 @@ export default function MedicalRecordUpload() {
 
     const handleClick = () => {
         setShowSpinner(true);
-        setMedicalRecord({ url: "/assets/medical-record.pdf" });
         setTimeout(() => {
+            setMedicalRecord({ url: "/assets/medical-record.pdf" });
             setShowSpinner(false);
         }, SPINNER_TIMEOUT);
     }

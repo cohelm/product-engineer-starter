@@ -2,6 +2,7 @@
 
 import GuidelinesUpload from "@/components/guidelines-upload";
 import MedicalRecordUpload from "@/components/medical-record-upload";
+import CaseSubmitButton from "@/components/case-submit-button";
 import { useRouter } from "next/navigation";
 
 export const revalidate = 0;
@@ -21,12 +22,7 @@ export default async function DashboardRoot() {
 				<GuidelinesUpload />
 			</div>
 			<div className="w-full py-4 flex flex-row justify-center">
-				<button
-					className="bg-green-600 font-medium text-white py-2 px-4 rounded"
-					onClick={handleContinue}
-				>
-					Continue
-				</button>
+				<CaseSubmitButton handleContinue={handleContinue} />
 			</div>
 		</div>
 	)
