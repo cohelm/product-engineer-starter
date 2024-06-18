@@ -35,7 +35,10 @@ const config = {
                     900: "#000000",
                     950: "#000000"
                 },
-
+                green: {
+                    500: "#00952D",
+                    600: "#00AC3A"
+                },
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
