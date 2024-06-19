@@ -40,10 +40,15 @@ export default function MedicalRecordUpload() {
 
 // hook to simulate medical record upload
 function useMedicalRecordUpload() {
-    const { medicalRecord, setMedicalRecord } = useDashboard();
+    const { medicalRecord, setMedicalRecord, setGuidelinesFile } = useDashboard();
     const [isLoading, setIsLoading] = useState(false);
 
     const simulateUpload = async () => {
+        // if medical record is already uploaded, reset both medical record and guidelines file
+        if (medicalRecord) {
+            setMedicalRecord(null);
+            setGuidelinesFile(null);
+        }
         setIsLoading(true);
         await new Promise((resolve) => setTimeout(resolve, 3000));
         setMedicalRecord({ url: "/assets/medical-record.pdf" });
