@@ -39,6 +39,10 @@ const config = {
                     500: "#00952D",
                     600: "#00AC3A"
                 },
+                blue: {
+                    500: "#006EFE",
+                    600: "#0090FF"
+                },
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
                 ring: "hsl(var(--ring))",
